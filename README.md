@@ -38,7 +38,7 @@ Depending on your platform it is located in the following folders:
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> **macOs** `~/.vscode/extensions`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> **Windows** `%USERPROFILE%\.vscode\extensions`
 
-Clone the Material Theme repository as `omergulen.universal-console-utils`:
+Clone the Universal Console Utils repository as `omergulen.universal-console-utils`:
 
 ```shell
 git clone https://github.com/omergulen/universal-console-utils.git omergulen.universal-console-utils

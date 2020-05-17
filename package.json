@@ -1,7 +1,9 @@
 {
 	"name": "universal-console-utils",
 	"displayName": "Universal Console Utils",
-	"description": "",
+	"publisher": "omergulen",
+	"description": "This extension is built to ease inserting log (print) statements while coding.",
+	"repository": "https://github.com/omergulen/universal-console-utils",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.45.0"

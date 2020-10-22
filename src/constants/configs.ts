@@ -5,7 +5,7 @@ export const languageMappingsWithText: {[key: string]: string} = {
     javascript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     javascriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     php: "echo '<pre>';\necho '${selectedSnippet}: ';\nvar_dump(${selectedSnippet});\ndie;",
-    python: "print('{selectedSnippet}: ' + {selectedSnippet})",
+    python: "print('{selectedSnippet}: ' + str({selectedSnippet}))",
     typescript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     typescriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",
 };

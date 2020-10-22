@@ -71,7 +71,7 @@ Also, if there is a selection in the editor, it inserts a print statement with t
             <td rowspan=6>Testing</td>
         </tr>
         <tr>
-            <td>TO-DO</td>
+            <td>DONE</td>
             <td>Handle multi-selection</td>
             <td rowspan=5>Support more languages</td>
         </tr>

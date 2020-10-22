@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { insertLogWithText, insertBaseLog, getLogStatementWithText } from './helpers';
+import { getLogStatementWithText } from './helpers';
 
 export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "Universal Console Utils" is now active!');
@@ -9,7 +9,6 @@ export function activate(context: vscode.ExtensionContext) {
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) { return; }
 
-		const selections = editor.selections;
 		const text = editor.selections.map((sel: vscode.Selection) =>
 			editor.document.getText(sel)
 		);
@@ -23,8 +22,6 @@ export function activate(context: vscode.ExtensionContext) {
 							editor.edit((editBuilder: vscode.TextEditorEdit) => {
 								editBuilder.replace(range, logToInsert);
 							}).then(() => resolve());
-
-
 						});
 					});
 				}, Promise.resolve());
@@ -32,7 +29,6 @@ export function activate(context: vscode.ExtensionContext) {
 			.then(() => cursorPlacement());
 		return;
 	});
-
 	context.subscriptions.push(insertLogStatement);
 }
 

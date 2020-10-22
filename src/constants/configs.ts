@@ -4,7 +4,7 @@ export const languageMappingsWithText: {[key: string]: string} = {
     java: "System.out.println(\"{selectedSnippet}: \" + {selectedSnippet});",
     javascript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     javascriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",
-    php: "echo '<pre>';\necho '{selectedSnippet}: ';\nvar_dump({selectedSnippet});\ndie;",
+    php: "echo '<pre>';\necho '${selectedSnippet}: ';\nvar_dump(${selectedSnippet});\ndie;",
     python: "print('{selectedSnippet}: ' + {selectedSnippet})",
     typescript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     typescriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",

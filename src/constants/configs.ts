@@ -5,6 +5,7 @@ export const languageMappingsWithText: {[key: string]: string} = {
     javascript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     javascriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     php: "echo '<pre>';\necho '${selectedSnippet}: ';\nvar_dump(${selectedSnippet});\ndie;",
+    ruby: "puts \"{selectedSnippet}: #\{{selectedSnippet}.pretty_inspect\}\"",
     python: "print('{selectedSnippet}: ' + str({selectedSnippet}))",
     typescript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     typescriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",
@@ -18,6 +19,7 @@ export const languageMappingsBase: {[key: string]: string} = {
     javascriptreact: "console.log();",
     php: "echo '<pre>';\nvar_dump();\ndie;",
     python: "print()",
+    ruby: "puts",
     typescript: "console.log();",
     typescriptreact: "console.log();",
 };
@@ -62,7 +64,6 @@ export const languageMappingsBase: {[key: string]: string} = {
 // python
 // r
 // razor
-// ruby
 // rust
 // scss
 // sass

@@ -9,6 +9,7 @@ export const languageMappingsWithText: {[key: string]: string} = {
     python: "print('{selectedSnippet}: ' + str({selectedSnippet}))",
     typescript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     typescriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",
+    vue: "console.log('{selectedSnippet}: ', {selectedSnippet});",
 };
 
 export const languageMappingsBase: {[key: string]: string} = {
@@ -22,6 +23,7 @@ export const languageMappingsBase: {[key: string]: string} = {
     ruby: "puts",
     typescript: "console.log();",
     typescriptreact: "console.log();",
+    vue: "console.log();",
 };
 
 // abap

@@ -12,22 +12,30 @@ This extension is built to ease inserting log (print) statements while coding.
 
 ## Getting started
 
-You can install this awesome extension through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=omergulen.universal-console-utils).
+You can install this awesome extension through:
+- [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=omergulen.universal-console-utils)
+- [Open VSX Registry](https://open-vsx.org/extension/omergulen/universal-console-utils)
 
-### Installation
+## Installation
+
+### Via Visual Studio Code
 
 Launch *Quick Open*:
   - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
   - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘P`
   - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
 
-Paste the following command and press `Enter`:
 
+
+Paste the following command and press `Enter`.:
 ```shell
 ext install universal-console-utils
 ```
 
-And pick the one by **Universal Console Utils (Omer Gulen)** (me) as author.
+### From VSIX
+
+1. Download the `.vsix` file of the latest [release from GitHub](https://github.com/omergulen/universal-console-utils/releases)
+2. Run `code --install-extension universal-console-utils-*.*.*.vsix` in the command line ([reference](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix))
 
 ##### GitHub Repository Clone
 

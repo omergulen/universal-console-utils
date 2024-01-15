@@ -1,7 +1,7 @@
 export const languageMappingsWithText: {[key: string]: string} = {
     c: "printf(\"{selectedSnippet}: %d\", {selectedSnippet});",
     cpp: "cout << \"{selectedSnippet}: \" << {selectedSnippet};",
-    go: "fmt.Printf(\"{selectedSnippet}: %d\", {selectedSnippet})",
+    go: "fmt.Printf(\"{selectedSnippet}: \", {selectedSnippet})",
     java: "System.out.println(\"{selectedSnippet}: \" + {selectedSnippet});",
     javascript: "console.log('{selectedSnippet}: ', {selectedSnippet});",
     javascriptreact: "console.log('{selectedSnippet}: ', {selectedSnippet});",

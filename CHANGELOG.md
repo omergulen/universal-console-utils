@@ -2,6 +2,10 @@
 
 All notable changes to the "universal-console-utils" extension will be documented in this file.
 
+### 1.2.0
+
+- Go language support added
+
 ### 1.1.0
 
 - Ruby language support added

@@ -4,7 +4,7 @@
 	"publisher": "omergulen",
 	"description": "This extension is built to ease inserting log (print) statements while coding.",
 	"repository": "https://github.com/omergulen/universal-console-utils",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"engines": {
 		"vscode": "^1.45.0"
 	},

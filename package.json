@@ -11,6 +11,9 @@
   "categories": [
     "Debuggers"
   ],
+  "activationEvents": [
+    "onCommand:universal-console-utils.insertLogStatement"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [

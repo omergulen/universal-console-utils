@@ -48,7 +48,7 @@
     "@typescript-eslint/eslint-plugin": "^2.30.0",
     "glob": "^7.1.6",
     "mocha": "^7.1.2",
-    "typescript": "^3.8.3",
+    "typescript": "^5.5.4",
     "vscode-test": "^1.6.1"
   }
 }

@@ -13,10 +13,10 @@ export function activate(context: vscode.ExtensionContext) {
 			editor.document.getText(sel)
 		);
 		vscode.commands.executeCommand('editor.action.insertLineAfter')
-			.then(() => {
+			.then<void>(() => {
 				text.reduce((acc: Promise<any>, _text: string, index: number) => {
 					return acc.then(res => {
-						return new Promise(resolve => {
+						return new Promise<void>(resolve => {
 							const logToInsert = getLogStatementWithText(_text, editor.document.languageId);
 							const range = new vscode.Range(editor.selections[index].start, editor.selections[index].end);
 							editor.edit((editBuilder: vscode.TextEditorEdit) => {

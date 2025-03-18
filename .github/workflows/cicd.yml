@@ -47,7 +47,7 @@ jobs:
         run: yarn vscode:prepublish
       - name: Package Extension
         id: packageExtension
-        uses: HaaLeo/publish-vscode-extension@v1
+        uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: stub
           dryRun: true
@@ -88,13 +88,13 @@ jobs:
           fail_on_unmatched_files: true
           files: ${{ needs.build-lint-test.outputs.vsixPath }}
       - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@v1
+        uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           extensionFile: ${{ needs.build-lint-test.outputs.vsixPath }}
           registryUrl: https://marketplace.visualstudio.com
       - name: Publish to Open VSX Registry
-        uses: HaaLeo/publish-vscode-extension@v1
+        uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: ${{ secrets.OPEN_VSX_TOKEN }}
           extensionFile: ${{ needs.build-lint-test.outputs.vsixPath }}

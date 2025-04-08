@@ -63,10 +63,10 @@
   dependencies:
     undici-types "~6.19.2"
 
-"@types/vscode@^1.73.0":
-  version "1.92.0"
-  resolved "https://registry.npmjs.org/@types/vscode/-/vscode-1.92.0.tgz"
-  integrity sha512-DcZoCj17RXlzB4XJ7IfKdPTcTGDLYvTOcTNkvtjXWF+K2TlKzHHkBEXNWQRpBIXixNEUgx39cQeTFunY0E2msw==
+"@types/vscode@^1.99.1":
+  version "1.99.1"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.99.1.tgz#bde6e2d9ccbe0493fded98ad639bf2671b8ec9ee"
+  integrity sha512-cQlqxHZ040ta6ovZXnXRxs3fJiTmlurkIWOfZVcLSZPcm9J4ikFpXuB7gihofGn5ng+kDVma5EmJIclfk0trPQ==
 
 "@typescript-eslint/eslint-plugin@^2.30.0":
   version "2.34.0"
